@@ -16,18 +16,18 @@ header {
 }
 h2 {
   font-size: 1.25rem;
+  margin-top: 0;
 }
 
 section {
   width: 100%;
-  padding: 1rem 0 0;
   max-width: 460px;
   margin: 0 auto;
+  padding-top: 1.25rem;
 }
 
 a {
   text-decoration: none;
-  line-height: 50px;
   color: #000;
   -webkit-text-fill-color: #000;
 }
@@ -61,6 +61,7 @@ button {
   font-size: 0.938rem;
   word-break: keep-all;
   margin-bottom: 0;
+  padding-bottom: 1rem;
 }
 
 .btn-icon {
