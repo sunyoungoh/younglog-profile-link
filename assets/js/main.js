@@ -46,7 +46,7 @@ if (btnLang) {
       titleContact.innerHTML = '💬 Contact';
       titleFree.innerHTML = '🎁 Free Download';
       btnNaver.innerHTML = `${logoNaver} ✨ younglog Smart Store ✨`;
-      btnTenyeten.innerHTML = `${logoTenbyten} 'younglog TenByTen`;
+      btnTenyeten.innerHTML = `${logoTenbyten} younglog TenByTen`;
       btnWeKor.innerHTML = `${logoWebudding} Webudding KOR`;
       btnWeEng.innerHTML = `${logoWebudding} Webudding ENG`;
       btnKakao.innerHTML = `${logokakao} Kakao Channel 1:1 Chat`;
