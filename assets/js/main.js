@@ -1,6 +1,7 @@
 const headerDesc = document.getElementById('header-desc');
 const titleStore = document.getElementById('title-store');
 const titleContact = document.getElementById('title-contact');
+const titleFont = document.getElementById('title-font');
 const titleFree = document.getElementById('title-free');
 const btnLang = document.getElementById('btn-lang');
 const btnNaverText = document.querySelector('#btn-naver > span');
@@ -15,6 +16,12 @@ const btnFreePriorityText = document.querySelector(
 const btnFreeMandalartText = document.querySelector(
   '#btn-free__mandalart > span'
 );
+const btnFontYounglogText = document.querySelector(
+  '#btn-font__younglog > span'
+);
+const btnFontYounglogBoldText = document.querySelector(
+  '#btn-font__younglog-bold > span'
+);
 
 if (btnLang) {
   btnLang.addEventListener('click', () => {
@@ -23,6 +30,7 @@ if (btnLang) {
       headerDesc.innerHTML =
         '심플하고 직관적이고 효율적인 디지털 서식, <b>영로그</b>';
       titleStore.innerText = '🛍️ 입점처';
+      titleFont.innerText = '✍🏻 폰트';
       titleContact.innerText = '💬 문의';
       titleFree.innerText = '🎁 무료공유';
       btnNaverText.innerText = '✨ 영로그 스마트스토어 ✨';
@@ -31,12 +39,15 @@ if (btnLang) {
       btnWeEngText.innerText = '위버딩 ENG';
       btnKakaoText.innerText = '카카오 채널 1:1 문의';
       btnMailText.innerText = '메일 보내기';
-      btnFreePriorityText.innerText = `우선순위 데일리 플래너`;
-      btnFreeMandalartText.innerText = ' 만다라트 플래너';
+      btnFreePriorityText.innerText = '우선순위 데일리 플래너';
+      btnFreeMandalartText.innerText = '만다라트 플래너';
+      btnFontYounglogText.innerText = '온글잎 영로그체';
+      btnFontYounglogBoldText.innerText = '온글잎 영로그체 볼드 (출시예정)';
     } else {
       headerDesc.innerHTML =
         'Simple, intuitive and efficient digital templates, <b>younglog</b>';
       titleStore.innerText = '🛍️ Store';
+      titleFont.innerText = '✍🏻 Font';
       titleContact.innerText = '💬 Contact';
       titleFree.innerText = '🎁 Free Download';
       btnNaverText.innerText = '✨ younglog Smart Store ✨';
@@ -47,6 +58,8 @@ if (btnLang) {
       btnMailText.innerText = 'Send Mail';
       btnFreePriorityText.innerText = 'Priority Daily Planner';
       btnFreeMandalartText.innerText = 'Mandal Art Planner';
+      btnFontYounglogText.innerText = 'Ownglyph younglog';
+      btnFontYounglogBoldText.innerText = 'Ownglyph younglog Bold (Coming Soon)';
     }
   });
 }
