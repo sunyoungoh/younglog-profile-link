@@ -44,7 +44,7 @@ if (btnLang) {
       btnFreePriorityText.innerText = '우선순위 데일리 플래너';
       btnFreeMandalartText.innerText = '만다라트 플래너';
       btnFontYounglogText.innerText = '온글잎 영로그체';
-      btnFontYounglogBoldText.innerText = '온글잎 영로그체 볼드 (출시예정)';
+      btnFontYounglogBoldText.innerText = '온글잎 영로그체 볼드';
     } else {
       headerDesc.innerHTML =
         'Simple, intuitive and efficient digital templates, <b>younglog</b>';
@@ -63,7 +63,7 @@ if (btnLang) {
       btnFreeMandalartText.innerText = 'Mandal Art Planner';
       btnFontYounglogText.innerText = 'Ownglyph younglog';
       btnFontYounglogBoldText.innerText =
-        'Ownglyph younglog Bold (Coming Soon)';
+        'Ownglyph younglog Bold';
     }
   });
 }
