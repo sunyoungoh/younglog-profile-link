@@ -16,6 +16,9 @@ const btnFreePriorityText = document.querySelector(
 const btnFreeMandalartText = document.querySelector(
   '#btn-free__mandalart > span'
 );
+const btnFreeYearlyText = document.querySelector(
+  '#btn-free__yearly > span'
+);
 const btnFreeHabitText = document.querySelector('#btn-free__habit > span');
 const btnFontYounglogText = document.querySelector(
   '#btn-font__younglog > span'
@@ -41,6 +44,7 @@ if (btnLang) {
       btnKakaoText.innerText = '카카오 채널 1:1 문의';
       btnMailText.innerText = '메일 보내기';
       btnFreeHabitText.innerText = '해빗트래커 스티커';
+      btnFreeYearlyText.innerText = '이얼리 플래너';
       btnFreePriorityText.innerText = '우선순위 데일리 플래너';
       btnFreeMandalartText.innerText = '만다라트 플래너';
       btnFontYounglogText.innerText = '온글잎 영로그체';
@@ -59,6 +63,7 @@ if (btnLang) {
       btnKakaoText.innerText = 'Kakao Channel 1:1 Chat';
       btnMailText.innerText = 'Send Mail';
       btnFreeHabitText.innerText = 'Habit Tracker Sticker';
+      btnFreeYearlyText.innerText = 'Yearly Planner';
       btnFreePriorityText.innerText = 'Priority Daily Planner';
       btnFreeMandalartText.innerText = 'Mandal Art Planner';
       btnFontYounglogText.innerText = 'Ownglyph younglog';
