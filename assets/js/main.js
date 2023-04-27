@@ -16,15 +16,16 @@ const btnFreePriorityText = document.querySelector(
 const btnFreeMandalartText = document.querySelector(
   '#btn-free__mandalart > span'
 );
-const btnFreeYearlyText = document.querySelector(
-  '#btn-free__yearly > span'
-);
+const btnFreeYearlyText = document.querySelector('#btn-free__yearly > span');
 const btnFreeHabitText = document.querySelector('#btn-free__habit > span');
 const btnFontYounglogText = document.querySelector(
   '#btn-font__younglog > span'
 );
 const btnFontYounglogBoldText = document.querySelector(
   '#btn-font__younglog-bold > span'
+);
+const btnFontYoungheeText = document.querySelector(
+  '#btn-font__younghee > span'
 );
 
 if (btnLang) {
@@ -49,6 +50,7 @@ if (btnLang) {
       btnFreeMandalartText.innerText = '만다라트 플래너';
       btnFontYounglogText.innerText = '온글잎 영로그체';
       btnFontYounglogBoldText.innerText = '온글잎 영로그체 볼드';
+      btnFontYoungheeText.innerText = '온글잎 영희체';
     } else {
       headerDesc.innerHTML =
         'Simple, intuitive and efficient digital templates, <b>younglog</b>';
@@ -67,8 +69,8 @@ if (btnLang) {
       btnFreePriorityText.innerText = 'Priority Daily Planner';
       btnFreeMandalartText.innerText = 'Mandal Art Planner';
       btnFontYounglogText.innerText = 'Ownglyph younglog';
-      btnFontYounglogBoldText.innerText =
-        'Ownglyph younglog Bold';
+      btnFontYounglogBoldText.innerText = 'Ownglyph younglog Bold';
+      btnFontYoungheeText.innerText = 'Ownglyph younghee';
     }
   });
 }
