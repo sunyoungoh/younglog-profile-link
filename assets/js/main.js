@@ -6,6 +6,7 @@ const titleFree = document.getElementById('title-free');
 const btnLang = document.getElementById('btn-lang');
 const btnNaverText = document.querySelector('#btn-naver > span');
 const btnTenyetenText = document.querySelector('#btn-tenbyten > span');
+const btnJellycrewText = document.querySelector('#btn-jellycrew > span');
 const btnWeKorText = document.querySelector('#btn-we-kor > span');
 const btnWeEngText = document.querySelector('#btn-we-eng > span');
 const btnKakaoText = document.querySelector('#btn-kakao > span');
@@ -39,6 +40,7 @@ if (btnLang) {
       titleContact.innerText = '💬 문의';
       titleFree.innerText = '🎁 무료공유';
       btnNaverText.innerText = '✨ 영로그 스마트스토어 ✨';
+      btnJellycrewText.innerText = '영로그 젤리크루';
       btnTenyetenText.innerText = '영로그 텐바이텐';
       btnWeKorText.innerText = '위버딩 KOR';
       btnWeEngText.innerText = '위버딩 ENG';
@@ -59,6 +61,7 @@ if (btnLang) {
       titleContact.innerText = '💬 Contact';
       titleFree.innerText = '🎁 Free Download';
       btnNaverText.innerText = '✨ younglog Smart Store ✨';
+      btnJellycrewText.innerText = 'younglog Jellycrew';
       btnTenyetenText.innerText = 'younglog TenByTen';
       btnWeKorText.innerText = 'Webudding KOR';
       btnWeEngText.innerText = 'Webudding ENG';

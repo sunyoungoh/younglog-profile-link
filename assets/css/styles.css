@@ -86,6 +86,12 @@ button {
   -webkit-text-fill-color: #fff;
 }
 
+.btn-jellycrew {
+  background: #bc6ecd;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+
 .webudding-btns {
   display: grid;
   gap: 1rem;
