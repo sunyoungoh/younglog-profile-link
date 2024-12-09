@@ -79,6 +79,13 @@ button {
   width: 30px;
 }
 
+.btn-tmm {
+  background: #27c781;
+  font-weight: bold;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+
 .btn-naver {
   background: #04bc3b;
   font-weight: bold;

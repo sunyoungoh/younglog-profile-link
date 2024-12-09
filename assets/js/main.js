@@ -5,6 +5,7 @@ const titleFont = document.getElementById('title-font');
 const titleFree = document.getElementById('title-free');
 const btnLang = document.getElementById('btn-lang');
 const btnNaverText = document.querySelector('#btn-naver > span');
+const btnTmmText = document.querySelector('#btn-tmm > span');
 const btnTenyetenText = document.querySelector('#btn-tenbyten > span');
 const btnJellycrewText = document.querySelector('#btn-jellycrew > span');
 const btnWeKorText = document.querySelector('#btn-we-kor > span');
@@ -39,6 +40,7 @@ if (btnLang) {
       titleFont.innerText = '✍🏻 폰트';
       titleContact.innerText = '💬 문의';
       titleFree.innerText = '🎁 무료공유';
+      btnTmmText.innerHTML = '🤍 영로그 TMM 🤍';
       btnNaverText.innerText = '✨ 영로그 스마트스토어 ✨';
       btnJellycrewText.innerText = '영로그 젤리크루';
       btnTenyetenText.innerText = '영로그 텐바이텐';
@@ -60,6 +62,7 @@ if (btnLang) {
       titleFont.innerText = '✍🏻 Font';
       titleContact.innerText = '💬 Contact';
       titleFree.innerText = '🎁 Free Download';
+       btnTmmText.innerHTML = '🤍 younglog TMM 🤍';
       btnNaverText.innerText = '✨ younglog Smart Store ✨';
       btnJellycrewText.innerText = 'younglog Jellycrew';
       btnTenyetenText.innerText = 'younglog TenByTen';
